@@ -6,7 +6,7 @@ class SearchVisualization extends Component {
     render() {
         const { upper, lower, max } = this.props;
         // Standard binary-search invariant: compute mid only while lower < upper
-        const isDetermined = lower === upper;
+        const isDetermined = (this.props.determined === true) || (lower === upper);
         const mid = lower < upper ? Math.floor((upper + lower) / 2) : null;
         // final guess will be the current lower when the algorithm concludes
         const finalGuess = lower;

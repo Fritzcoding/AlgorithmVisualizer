@@ -13,6 +13,7 @@ class Search extends Component {
                     yesButton={this.props.yesButton}
                     noButton={this.props.noButton}
                     onRestart={this.props.onRestart}
+                    determined={this.props.determined}
                 />
             </div>
         );
