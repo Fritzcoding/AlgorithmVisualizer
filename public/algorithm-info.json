@@ -1,0 +1,51 @@
+{
+  "pathfinder": {
+    "title": "Pathfinder",
+    "description": "Visualize graph algorithms like Dijkstra, BFS, and DFS. Use weighted or unweighted graphs to compare behavior and performance.",
+    "details": "Run interactive demos to see how nodes are explored and shortest paths are constructed.",
+    "time": { "best": "O(|E| + |V|)", "average": "O(|E| + |V|)", "worst": "O(|E| + |V|)" },
+    "space": "O(|V|)"
+  },
+  "recursion-tree": {
+    "title": "Recursion Tree",
+    "description": "Shows the recursion tree for common recursive algorithms (Fibonacci, nCr, derangement, etc.).",
+    "details": "Inspect how calls expand and collapse, and how values are computed at each node.",
+    "time": { "best": "Varies", "average": "Varies", "worst": "Varies" },
+    "space": "O(n)"
+  },
+  "sorting": {
+    "title": "Sorting Algorithm",
+    "description": "Compare different sorting algorithms visually to learn how they operate and their performance characteristics.",
+    "details": "Try Bubble, Selection, Insertion and Quick Sort with adjustable array sizes and speed.",
+    "time": { "best": "O(n)", "average": "O(n log n)", "worst": "O(n^2)" },
+    "space": "O(1) - O(n) depending on algorithm"
+  },
+  "n-queen": {
+    "title": "N Queen",
+    "description": "Solve the N-Queens puzzle: place N queens so no two attack each other.",
+    "details": "Step through backtracking and visualize placements and backtracks.",
+    "time": { "best": "—", "average": "—", "worst": "Exponential" },
+    "space": "O(n)"
+  },
+  "prime-numbers": {
+    "title": "Prime Numbers",
+    "description": "Visualize prime-finding algorithms and compare sieve vs brute force approaches.",
+    "details": "See how sieving eliminates multiples efficiently across ranges.",
+    "time": { "best": "O(n log log n)", "average": "O(n log log n)", "worst": "O(n sqrt(n))" },
+    "space": "O(n)"
+  },
+  "convex-hull": {
+    "title": "Convex Hull",
+    "description": "Visualize algorithms that compute the convex hull of a set of points.",
+    "details": "Watch Graham scan and Jarvis march build the hull step by step.",
+    "time": { "best": "O(n log n)", "average": "O(n log n)", "worst": "O(n^2)" },
+    "space": "O(n)"
+  },
+  "binary-search": {
+    "title": "Binary Search",
+    "description": "Efficiently find items in a sorted list using divide-and-conquer.",
+    "details": "Visualize the search interval shrinking until the target is found.",
+    "time": { "best": "O(1)", "average": "O(log n)", "worst": "O(log n)" },
+    "space": "O(1)"
+  }
+}
